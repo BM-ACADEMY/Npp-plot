@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 import { useNav } from "@/context/NavContext";
 import { useAuth } from "@/context/AuthContext";
 import { message } from "antd";
@@ -81,12 +82,12 @@ const Footer = () => {
   useEffect(() => {
     const fetchSocialLinks = async () => {
       try {
-        const response = await fetch(
-          `${import.meta.env.VITE_API_URL}/social-media/fetch-all-social-media`,
+        const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+        const response = await axios.get(
+          `${apiUrl}/social-media/fetch-all-social-media`,
         );
-        const data = await response.json();
-        if (Array.isArray(data)) {
-          setSocialLinks(data.filter((link) => link.status));
+        if (Array.isArray(response.data)) {
+          setSocialLinks(response.data.filter((link) => link.status));
         }
       } catch (error) {
         console.error("Failed to fetch social media links", error);

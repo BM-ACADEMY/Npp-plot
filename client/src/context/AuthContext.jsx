@@ -4,7 +4,7 @@ import { subscribeToPushNotifications } from "../utils/pushNotification";
 
 export const AuthContext = createContext(null);
 
-const SECRET_KEY = import.meta.env.VITE_SECRET_KEY;
+const SECRET_KEY = import.meta.env.VITE_SECRET_KEY || "nammapondy_secure_jwt_secret_key_2025";
 
 /* ================== CRYPTO HELPERS ================== */
 const encryptData = (data) => {
@@ -93,7 +93,8 @@ export const AuthProvider = ({ children }) => {
       const activeToken = providedToken || token || localStorage.getItem("token");
       if (!activeToken) return;
 
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/users/refresh-token`, {
+      const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+      const res = await fetch(`${apiUrl}/users/refresh-token`, {
         headers: {
           Authorization: `Bearer ${activeToken}`,
         },
@@ -101,6 +102,15 @@ export const AuthProvider = ({ children }) => {
 
       if (res.status === 401 || res.status === 404) {
         logout();
+        return;
+      }
+
+      if (!res.ok) {
+        return;
+      }
+
+      const contentType = res.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
         return;
       }
 
