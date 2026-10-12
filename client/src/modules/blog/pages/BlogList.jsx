@@ -207,6 +207,19 @@ const BlogList = () => {
       date: "Oct 3, 2026",
       categoryBg: "bg-sky-50 text-sky-700 border border-sky-100",
     },
+    {
+      id: 16,
+      slug: "manage-property-abroad",
+      url: "/blog/manage-property-abroad",
+      title: "How to Manage Your Pondicherry Property from Abroad: A Complete Guide",
+      excerpt:
+        "Owning property in Pondicherry while living abroad? Learn how to organise documents, appoint trusted local contacts, inspect remotely, and handle taxes & tenants.",
+      category: "NRI Guide • Remote Property Management",
+      image: "/blog/rockbeach.webp",
+      author: "Namma Pondy Properties Team",
+      date: "Oct 12, 2026",
+      categoryBg: "bg-blue-50 text-blue-700 border border-blue-100",
+    }, s
   ];
 
   return (
