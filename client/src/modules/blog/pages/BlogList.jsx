@@ -219,7 +219,7 @@ const BlogList = () => {
       author: "Namma Pondy Properties Team",
       date: "Oct 12, 2026",
       categoryBg: "bg-blue-50 text-blue-700 border border-blue-100",
-    }, s
+    },
   ];
 
   return (
