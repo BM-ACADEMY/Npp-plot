@@ -1,6 +1,7 @@
 import { io } from "socket.io-client";
+import { getBaseUrl } from "../utils/baseUrl";
 
-const SOCKET_URL = (import.meta.env.VITE_API_URL || "http://localhost:5000/api").replace("/api", "");
+const SOCKET_URL = getBaseUrl();
 
 const socket = io(SOCKET_URL, {
   withCredentials: true,

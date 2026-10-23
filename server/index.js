@@ -67,8 +67,12 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads"), {
 app.use(cookieParser());
 
 // CORS (after parsers)
+const clientOrigins = process.env.CLIENT_URL
+  ? process.env.CLIENT_URL.split(",").map((origin) => origin.trim()).filter(Boolean)
+  : [];
+
 const allowedOrigins = [
-  process.env.CLIENT_URL,
+  ...clientOrigins,
   "http://localhost:5173",
   "http://localhost:3000",
   "http://127.0.0.1:5173"
@@ -200,8 +204,13 @@ const startServer = async () => {
   try {
     await connectDB(); // Wait for DB connection
 
-    // Initialize scheduled tasks with io instance
-    initCronJobs(io);
+    // Initialize scheduled tasks with io instance (guarded by ENABLE_CRON_JOBS)
+    if (process.env.ENABLE_CRON_JOBS === "true") {
+      console.log("⏰ Initializing cron jobs (ENABLE_CRON_JOBS=true)...");
+      initCronJobs(io);
+    } else {
+      console.log("⏸️  Cron jobs DISABLED. Set ENABLE_CRON_JOBS=true in .env to activate scheduled tasks.");
+    }
 
     server.listen(PORT, () => {
       console.log(`🚀 Server running on ${PORT}`);

@@ -10,6 +10,11 @@ const path = require("path");
 const { processLeadSharingExpiry } = require("./leadSharingUtils");
 
 const initCronJobs = (io) => {
+  if (process.env.ENABLE_CRON_JOBS !== "true") {
+    console.log("⏸️  initCronJobs skipped: ENABLE_CRON_JOBS is not 'true'.");
+    return;
+  }
+
   // Schedule task to run every minute for automated lead sharing
   cron.schedule("*/5 * * * * *", async () => {
     // console.log("🕒 Checking lead sharing timers...");

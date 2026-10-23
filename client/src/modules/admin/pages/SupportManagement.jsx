@@ -41,6 +41,7 @@ import { useAuth } from "../../../context/AuthContext";
 import api from "../../../services/api";
 import moment from "moment";
 import Loader from "@/components/Common/Loader";
+import { getImageUrl } from "@/utils/imageUrl";
 
 const { Content, Sider } = Layout;
 const { Title, Text } = Typography;
@@ -403,9 +404,7 @@ const SupportManagement = () => {
                         size={48}
                         src={
                           item.seller?.profile_image
-                            ? item.seller.profile_image.startsWith("http")
-                              ? item.seller.profile_image
-                              : `${import.meta.env.VITE_API_URL.replace("/api", "")}${item.seller.profile_image}`
+                            ? getImageUrl(item.seller.profile_image)
                             : null
                         }
                         icon={<UserOutlined />}
@@ -489,11 +488,7 @@ const SupportManagement = () => {
                         size={40}
                         src={
                           activeTicket.seller?.profile_image
-                            ? activeTicket.seller.profile_image.startsWith(
-                                "http",
-                              )
-                              ? activeTicket.seller.profile_image
-                              : `${import.meta.env.VITE_API_URL.replace("/api", "")}${activeTicket.seller.profile_image}`
+                            ? getImageUrl(activeTicket.seller.profile_image)
                             : null
                         }
                         icon={<UserOutlined />}
@@ -790,9 +785,7 @@ const SupportManagement = () => {
                   size={100}
                   src={
                     selectedUser.profile_image
-                      ? selectedUser.profile_image.startsWith("http")
-                        ? selectedUser.profile_image
-                        : `${import.meta.env.VITE_API_URL.replace("/api", "")}${selectedUser.profile_image}`
+                      ? getImageUrl(selectedUser.profile_image)
                       : null
                   }
                   icon={<UserOutlined />}
