@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
                    
                     
                     <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6">
-                        The NammaPondy Difference
+                        The The Plot One Difference
                     </h2>
                     
                     <p className="text-slate-600 text-lg leading-relaxed font-light">
@@ -123,7 +123,7 @@ const WhyChooseUs = () => {
                             >
                                 <img 
                                     src={logo} 
-                                    alt="Namma Pondy Logo" 
+                                    alt="The Plot One Logo" 
                                     className="w-full h-auto drop-shadow-2xl relative z-10"
                                 />
                             </motion.div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/property-management";
+const CANONICAL_URL = "https://theplotone.com/blog/property-management";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80";
 const WA = "https://wa.me/919403892971?text=";
 
@@ -19,7 +19,7 @@ const PropertyManagementCost = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>What Property Management Actually Costs in Pondicherry | Namma Pondy Properties</title>
+        <title>What Property Management Actually Costs in Pondicherry | The Plot One</title>
         <meta
           name="description"
           content="What affects property management costs in Pondicherry — property type, location, visit frequency, maintenance, and what to confirm before hiring a property manager."
@@ -619,7 +619,7 @@ const PropertyManagementCost = () => {
           <h1 className="title">What Property Management Actually Costs in Pondicherry</h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 3 October 2026</span>
           </div>
 
@@ -1041,7 +1041,7 @@ const PropertyManagementCost = () => {
           <div className="final-cta">
             <h2>Want a Clear Property Management Estimate?</h2>
             <p>
-              Let Namma Pondy Properties help you understand exactly what's included — across
+              Let The Plot One help you understand exactly what's included — across
               Pondicherry, Cuddalore, Villupuram, Tindivanam, Marakkanam, and Chennai — so you
               compare services, not just price.
             </p>
@@ -1058,10 +1058,10 @@ const PropertyManagementCost = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping property owners understand transparent, itemised property management costs

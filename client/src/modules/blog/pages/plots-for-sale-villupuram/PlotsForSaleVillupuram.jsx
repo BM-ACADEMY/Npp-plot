@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare, Building, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/plots-for-sale-villupuram";
+const CANONICAL_URL = "https://theplotone.com/blog/plots-for-sale-villupuram";
 
 const PlotsForSaleVillupuram = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const PlotsForSaleVillupuram = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>Plots for Sale in Villupuram (2026) | Namma Pondy Properties</title>
+        <title>Plots for Sale in Villupuram (2026) | The Plot One</title>
         <meta
           name="description"
           content="Complete guide to plots for sale in Villupuram — connectivity, popular locations, documents to verify, DTCP approval, and tips for homebuyers and investors."
@@ -613,7 +613,7 @@ const PlotsForSaleVillupuram = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 24 August 2026</span>
           </div>
 
@@ -953,7 +953,7 @@ const PlotsForSaleVillupuram = () => {
           <div className="final-cta">
             <h2>Ready to Find Verified Plots for Sale in Villupuram?</h2>
             <p>
-              Let Namma Pondy Properties help you explore verified residential plots across
+              Let The Plot One help you explore verified residential plots across
               Villupuram, Pondicherry, Cuddalore, Tindivanam, Chennai, and surrounding Tamil Nadu
               areas — with confidence, from selection to site visit.
             </p>
@@ -970,10 +970,10 @@ const PlotsForSaleVillupuram = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping buyers explore verified residential plots across Villupuram, Pondicherry, and

@@ -41,7 +41,7 @@ const marketingLeadTemplate = (request, seller, property, plan) => {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://nammapondyproperties.com/Logo/logo.webp" alt="Namma Pondy Properties">
+          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One">
           <p>${title}</p>
         </div>
         <div class="content">
@@ -121,7 +121,7 @@ const marketingLeadTemplate = (request, seller, property, plan) => {
           </div>
         </div>
         <div class="footer">
-          &copy; ${new Date().getFullYear()} Namma Pondy Properties. All rights reserved.<br>
+          &copy; ${new Date().getFullYear()} The Plot One. All rights reserved.<br>
           This is an automated notification, please do not reply.
         </div>
       </div>

@@ -74,7 +74,7 @@ const BusinessTypeModal = ({ isOpen, user, onSelected }) => {
           
           <div className="space-y-3">
             <p className="text-[#64748B] text-[15px] leading-relaxed m-0">
-              To provide the best experience, please select how you will be listing properties on Namma Pondy Properties.
+              To provide the best experience, please select how you will be listing properties on The Plot One.
             </p>
             <p className="text-[#0F172A] font-bold text-[15px] m-0">
               This selection is permanent once verified.

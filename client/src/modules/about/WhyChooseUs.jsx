@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-[#D4AF37] font-bold tracking-[0.2em] uppercase text-xs mb-4 block">
-            The Namma Pondy Difference
+            The The Plot One Difference
           </span>
           {/* UPDATED: Changed font-bold to font-light */}
           <h2 className="text-4xl md:text-5xl font-light text-[#050B14] mb-6">

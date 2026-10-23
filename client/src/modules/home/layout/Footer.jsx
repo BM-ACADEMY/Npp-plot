@@ -104,10 +104,10 @@ const Footer = () => {
           {/* Column 1: Brand Info */}
           <div>
             <div className="mb-6">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Logo" className="h-16 w-auto object-contain" />
+              <img src="/Logo/logo.webp" alt="The Plot One Logo" className="h-16 w-auto object-contain" />
             </div>
             <h4 className="text-white text-lg font-bold mb-6 tracking-wide underline-offset-8">
-              Namma Pondy Properties
+              The Plot One
             </h4>
             <div className="text-sm leading-relaxed text-gray-400">
               <p>Pondicherry's leading platform to buy, sell, and rent certified properties.</p>
@@ -272,10 +272,10 @@ const Footer = () => {
               <li className="flex items-center justify-start gap-4">
                 {/* <Mail className="w-5 h-5 text-gray-400 shrink-0" /> */}
                 <a
-                  href="mailto:help@nammapondyproperties.com"
+                  href="mailto:help@theplotone.com"
                   className="underline-offset-4 hover:underline cursor-pointer hover:text-white transition-colors"
                 >
-                  help@nammapondyproperties.com
+                  help@theplotone.com
                 </a>
               </li>
             </ul>
@@ -305,7 +305,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Copyright & Credits */}
           <div className="text-[11px] text-gray-500 font-medium text-center md:text-left">
-            &copy; {new Date().getFullYear()} Namma Pondy Properties. All rights reserved. | Designed by <a href="https://bmtechx.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">BM TechX</a>
+            &copy; {new Date().getFullYear()} The Plot One. All rights reserved. | Designed by <a href="https://bmtechx.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">BM TechX</a>
           </div>
 
           {/* Payment Methods */}

@@ -178,7 +178,7 @@ const UpgradePlan = () => {
         key: keyId,
         amount: order.amount,
         currency: order.currency,
-        name: "Namma Pondy Properties",
+        name: "The Plot One",
         description: `Upgrade to ${selectedPlan.name} Plan`,
         order_id: order.orderId,
         handler: async (response) => {

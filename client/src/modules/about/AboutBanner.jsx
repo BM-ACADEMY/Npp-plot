@@ -47,12 +47,12 @@ export default function AboutHero() {
                 {/* Main Heading */}
                 <h1 className="text-5xl md:text-6xl leading-[1.15] mb-8">
                   <span className="font-light block text-white">Welcome to</span>
-                  <span className="text-[#D4AF37] font-normal block">Namma Pondy Properties</span>
+                  <span className="text-[#D4AF37] font-normal block">The Plot One</span>
                 </h1>
 
                 {/* Introduction Paragraph */}
                 <p className="text-gray-300 text-lg font-light leading-relaxed max-w-lg mb-8">
-                  Namma Pondy Properties is a trusted real estate service dedicated to helping individuals and families buy, sell, and invest in properties across Pondicherry.
+                  The Plot One is a trusted real estate service dedicated to helping individuals and families buy, sell, and invest in properties across Pondicherry.
                 </p>
 
 

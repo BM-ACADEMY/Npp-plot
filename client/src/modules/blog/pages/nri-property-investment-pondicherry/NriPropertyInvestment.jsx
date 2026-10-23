@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, MessageSquare, Building, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/nri-property-investment-pondicherry";
+const CANONICAL_URL = "https://theplotone.com/blog/nri-property-investment-pondicherry";
 
 const NriPropertyInvestment = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const NriPropertyInvestment = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>NRI Property Investment Pondicherry (2026) | Namma Pondy Properties</title>
+        <title>NRI Property Investment Pondicherry (2026) | The Plot One</title>
         <meta
           name="description"
           content="Complete guide to NRI property investment in Pondicherry — eligibility, best areas, documents to verify, planning approvals, and mistakes to avoid before buying land in 2026."
@@ -33,7 +33,7 @@ const NriPropertyInvestment = () => {
           property="og:description"
           content="Eligibility, best areas, documents to verify, planning approvals, and mistakes to avoid — a complete guide for NRIs investing in Pondicherry land."
         />
-        <meta property="og:image" content="https://nammapondyproperties.com/blog/beach.webp" />
+        <meta property="og:image" content="https://theplotone.com/blog/beach.webp" />
       </Helmet>
 
       <style>{`
@@ -604,7 +604,7 @@ const NriPropertyInvestment = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 19 August 2026</span>
           </div>
 
@@ -964,7 +964,7 @@ const NriPropertyInvestment = () => {
           <div className="final-cta">
             <h2>Ready to Explore Verified Plots in Pondicherry?</h2>
             <p>
-              Let Namma Pondy Properties help you discover verified residential plots across
+              Let The Plot One help you discover verified residential plots across
               Pondicherry, Cuddalore, Villupuram, Thindivanam, and Chennai — with transparent
               support, including virtual consultations for buyers overseas.
             </p>
@@ -981,10 +981,10 @@ const NriPropertyInvestment = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping NRIs and Indian buyers discover verified residential plots across Pondicherry

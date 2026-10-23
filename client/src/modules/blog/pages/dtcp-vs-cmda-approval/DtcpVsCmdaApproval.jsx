@@ -534,7 +534,7 @@ const DtcpVsCmdaApproval = () => {
           <h1 className="title">DTCP vs CMDA Approval — Which One Should You Choose?</h1>
 
           <div className="byline">
-            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4 text-[#166aa8]" /> 3 August 2026</span>
           </div>
 
@@ -670,7 +670,7 @@ const DtcpVsCmdaApproval = () => {
           </div>
 
           <div className="why-choose">
-            <h2>Why Choose Namma Pondy Properties</h2>
+            <h2>Why Choose The Plot One</h2>
             <ul className="why-list">
               <li>
                 <b>Verified Approvals</b> — every plot we list has its DTCP or applicable approval checked and confirmed.
@@ -696,7 +696,7 @@ const DtcpVsCmdaApproval = () => {
               <div className="stars">★★★★★</div>
               <p className="quote">
                 "We almost bought a plot the seller called 'DTCP approved' — turns out it needed CMDA approval instead.
-                Namma Pondy Properties caught it before we paid the advance."
+                The Plot One caught it before we paid the advance."
               </p>
               <div className="client">
                 Ravi &amp; Meena <span>Buyers, Villupuram border</span>
@@ -723,10 +723,10 @@ const DtcpVsCmdaApproval = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Pondicherry's trusted real estate partner — every plot we list has its planning approval verified against the

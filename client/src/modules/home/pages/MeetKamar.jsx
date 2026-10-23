@@ -19,12 +19,12 @@ const MeetKamar = () => {
           </h2>
 
           <h3 className="text-[#b58e45] text-[20px] md:text-[24px] font-semibold mb-8">
-            Founder of Namma Pondy Properties
+            Founder of The Plot One
           </h3>
 
           <div className="space-y-6 text-[#475569] text-[17px] md:text-[18px] leading-relaxed max-w-[520px]">
             <p>
-              Kamar started Namma Pondy Properties to make buying and selling
+              Kamar started The Plot One to make buying and selling
               property in Pondicherry simple, transparent, and reliable.
             </p>
             <p>

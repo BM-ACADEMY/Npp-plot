@@ -64,7 +64,7 @@ const PropertyDetails = () => {
         const category = propertyData.basicInfo?.category || "Sell/Buy";
         const locality = propertyData.location?.locality || "";
         const city = propertyData.location?.city || "Pondicherry";
-        document.title = `${title} | ${category} in ${locality ? locality + ", " : ""}${city} | Namma Pondy Properties`;
+        document.title = `${title} | ${category} in ${locality ? locality + ", " : ""}${city} | The Plot One`;
 
         if (propertyData?.media?.images?.length > 0) {
           setMainImage(propertyData.media.featuredImage || propertyData.media.images[0]);

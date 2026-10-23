@@ -23,8 +23,8 @@ export default defineConfig({
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
 
       manifest: {
-        name: "Namma Pondy Properties",
-        short_name: "NammaPondy",
+        name: "The Plot One",
+        short_name: "The Plot One",
         description:
           "Pondicherry's leading real estate platform. Buy, sell, and rent verified properties.",
         theme_color: "#003366",

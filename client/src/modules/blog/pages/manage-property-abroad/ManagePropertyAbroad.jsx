@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, MessageSquare, ClipboardList } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/manage-property-abroad";
+const CANONICAL_URL = "https://theplotone.com/blog/manage-property-abroad";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1600&q=80";
 const WA = "https://wa.me/919403892971?text=";
 
@@ -19,7 +19,7 @@ const ManagePropertyAbroad = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>How to Manage Your Pondicherry Property from Abroad: A Complete Guide | Namma Pondy Properties</title>
+        <title>How to Manage Your Pondicherry Property from Abroad: A Complete Guide | The Plot One</title>
         <meta
           name="description"
           content="Complete guide for NRIs and overseas owners on managing Pondicherry property remotely — document storage, trusted local contacts, regular inspections, bills, tenant management, and emergency response."
@@ -623,7 +623,7 @@ const ManagePropertyAbroad = () => {
 
           <div className="byline">
             <span>
-              <User className="w-4 h-4 text-slate-500" /> Namma Pondy Properties Team
+              <User className="w-4 h-4 text-slate-500" /> The Plot One Team
             </span>
             <span>
               <Calendar className="w-4 h-4 text-slate-500" /> Oct 12, 2026
@@ -1089,7 +1089,7 @@ const ManagePropertyAbroad = () => {
           <div className="final-cta">
             <h2>Looking for Verified Plots in Pondicherry and Nearby Areas?</h2>
             <p>
-              Namma Pondy Properties helps buyers and investors explore property opportunities across
+              The Plot One helps buyers and investors explore property opportunities across
               Pondicherry, Cuddalore, Villupuram, Tindivanam, Chennai, and other parts of Tamil Nadu — with
               transparent guidance, including support for owners living abroad.
             </p>
@@ -1111,10 +1111,10 @@ const ManagePropertyAbroad = () => {
             <div className="brand-row">
               <img
                 src="/Logo/logo.webp"
-                alt="Namma Pondy Properties"
+                alt="The Plot One"
                 className="w-14 h-14 object-contain shrink-0"
               />
-              <div className="name">Namma Pondy Properties</div>
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping NRIs and overseas owners manage and invest in verified property across Pondicherry

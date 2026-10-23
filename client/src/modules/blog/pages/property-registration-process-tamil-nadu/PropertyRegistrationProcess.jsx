@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, MessageSquare, Landmark, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/property-registration-process-tamil-nadu";
+const CANONICAL_URL = "https://theplotone.com/blog/property-registration-process-tamil-nadu";
 
 const PropertyRegistrationProcess = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const PropertyRegistrationProcess = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>Property Registration Process in Tamil Nadu – Complete Step-by-Step Guide (2026) | Namma Pondy Properties</title>
+        <title>Property Registration Process in Tamil Nadu – Complete Step-by-Step Guide (2026) | The Plot One</title>
         <meta
           name="description"
           content="Complete step-by-step guide to the property registration process in Tamil Nadu — documents required, Sub-Registrar Office visit, biometric verification, and what to check before signing."
@@ -534,7 +534,7 @@ const PropertyRegistrationProcess = () => {
           </h1>
 
           <div className="byline">
-            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4 text-[#166aa8]" /> 17 August 2026</span>
           </div>
 
@@ -718,7 +718,7 @@ const PropertyRegistrationProcess = () => {
           </div>
 
           <div className="why-choose">
-            <h2>Why Choose Namma Pondy Properties</h2>
+            <h2>Why Choose The Plot One</h2>
             <ul className="why-list">
               <li><b>Registration-Ready Plots</b> — every listed plot comes with documentation prepared for a smooth SRO visit.</li>
               <li><b>Document Support</b> — help assembling parent documents, EC, patta, sale deed, and approval letters.</li>
@@ -736,7 +736,7 @@ const PropertyRegistrationProcess = () => {
             <div className="success-card">
               <div className="stars">★★★★★</div>
               <p className="quote">
-                "We had no idea what to expect at the Sub-Registrar Office. Namma Pondy Properties
+                "We had no idea what to expect at the Sub-Registrar Office. The Plot One
                 prepared every document in advance and walked us through the whole registration day."
               </p>
               <div className="client">
@@ -765,10 +765,10 @@ const PropertyRegistrationProcess = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Pondicherry's trusted real estate partner — every plot we list comes registration-ready,

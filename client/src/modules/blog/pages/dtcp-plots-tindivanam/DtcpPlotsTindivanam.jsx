@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare, Building, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/dtcp-plots-tindivanam";
+const CANONICAL_URL = "https://theplotone.com/blog/dtcp-plots-tindivanam";
 
 const DtcpPlotsTindivanam = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const DtcpPlotsTindivanam = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>DTCP Plots in Tindivanam (2026) | Namma Pondy Properties</title>
+        <title>DTCP Plots in Tindivanam (2026) | The Plot One</title>
         <meta
           name="description"
           content="Complete guide to DTCP plots in Tindivanam — connectivity, documents to verify, DTCP approval explained, common mistakes, and tips for homebuyers and investors."
@@ -638,7 +638,7 @@ const DtcpPlotsTindivanam = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 26 August 2026</span>
           </div>
 
@@ -1028,7 +1028,7 @@ const DtcpPlotsTindivanam = () => {
           <div className="final-cta">
             <h2>Ready to Explore Verified DTCP Plots in Tindivanam?</h2>
             <p>
-              Let Namma Pondy Properties help you explore verified residential plots across
+              Let The Plot One help you explore verified residential plots across
               Tindivanam, Pondicherry, Villupuram, Cuddalore, Chennai, and surrounding Tamil Nadu
               locations — with clarity and confidence.
             </p>
@@ -1045,10 +1045,10 @@ const DtcpPlotsTindivanam = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping buyers explore verified DTCP-approved plots across Tindivanam, Pondicherry, and

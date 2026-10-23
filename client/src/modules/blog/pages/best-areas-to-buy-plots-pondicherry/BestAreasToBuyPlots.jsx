@@ -563,7 +563,7 @@ const BestAreasToBuyPlots = () => {
           </h1>
 
           <div className="byline">
-            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4 text-[#166aa8]" /> 10 August 2026</span>
           </div>
 
@@ -792,7 +792,7 @@ const BestAreasToBuyPlots = () => {
           </div>
 
           <div className="why-choose">
-            <h2>Why Choose Namma Pondy Properties</h2>
+            <h2>Why Choose The Plot One</h2>
             <ul className="why-list">
               <li>
                 <b>Verified documentation first.</b> Every plot we discuss has had its ownership, patta, and EC
@@ -878,7 +878,7 @@ const BestAreasToBuyPlots = () => {
           <div className="final-cta">
             <h2>Ready to Find Your Perfect Plot?</h2>
             <p>
-              Let Namma Pondy Properties help you find a verified residential plot across Pondicherry, Cuddalore,
+              Let The Plot One help you find a verified residential plot across Pondicherry, Cuddalore,
               Villupuram, and Tindivanam — with transparent guidance from site selection to documentation.
             </p>
             <a
@@ -894,10 +894,10 @@ const BestAreasToBuyPlots = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping buyers find verified residential plots across Pondicherry and surrounding growth corridors,

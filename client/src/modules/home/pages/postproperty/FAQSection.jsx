@@ -4,7 +4,7 @@ import { Plus } from 'lucide-react';
 const FAQSection = () => {
     const faqs = [
         {
-            question: "How to post a property on Namma Pondy Properties?",
+            question: "How to post a property on The Plot One?",
             answer: "Simply click the 'Post Property' button on our homepage. You'll need to provide basic details like property type, location in Pondicherry, price, and clear photos to help your listing stand out."
         },
         {
@@ -17,7 +17,7 @@ const FAQSection = () => {
         },
         {
             question: "How long does it take for my property to go live?",
-            answer: "Once submitted, our team verifies the details to ensure quality. Your property usually goes live on the Namma Pondy portal within 2 to 4 hours."
+            answer: "Once submitted, our team verifies the details to ensure quality. Your property usually goes live on the The Plot One portal within 2 to 4 hours."
         },
         {
             question: "How do I receive enquiries from interested buyers?",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare, Building, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/dtcp-plots-marakkanam";
+const CANONICAL_URL = "https://theplotone.com/blog/dtcp-plots-marakkanam";
 
 const DtcpPlotsMarakkanam = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const DtcpPlotsMarakkanam = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>DTCP Plots in Marakkanam (2026) – Complete Buyer's Guide | Namma Pondy Properties</title>
+        <title>DTCP Plots in Marakkanam (2026) – Complete Buyer's Guide | The Plot One</title>
         <meta
           name="description"
           content="Planning to invest in land near Pondicherry or Chennai? Complete guide to DTCP-approved plots in Marakkanam — location advantages, documents to verify, and buyer tips."
@@ -577,7 +577,7 @@ const DtcpPlotsMarakkanam = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 13 August 2026</span>
           </div>
 
@@ -916,7 +916,7 @@ const DtcpPlotsMarakkanam = () => {
           <div className="final-cta">
             <h2>Ready to Explore Verified DTCP Plots in Marakkanam?</h2>
             <p>
-              Let Namma Pondy Properties help you discover verified DTCP-approved residential plots
+              Let The Plot One help you discover verified DTCP-approved residential plots
               in Marakkanam, Pondicherry, Cuddalore, Villupuram, Tindivanam, and Chennai — with
               transparent guidance from selection to documentation.
             </p>
@@ -933,10 +933,10 @@ const DtcpPlotsMarakkanam = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping buyers find verified DTCP-approved plots across Marakkanam, Pondicherry, and

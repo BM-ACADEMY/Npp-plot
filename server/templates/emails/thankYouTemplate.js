@@ -50,7 +50,7 @@ const thankYouTemplate = (data, type = 'contact') => {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://nammapondyproperties.com/Logo/logo.webp" alt="Namma Pondy Properties" style="height: 50px; width: auto; margin-bottom: 10px;">
+          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One" style="height: 50px; width: auto; margin-bottom: 10px;">
           <h1>${title}</h1>
         </div>
         <div class="content">
@@ -69,11 +69,11 @@ const thankYouTemplate = (data, type = 'contact') => {
           <p>If you have any urgent queries, feel free to visit our website or call us directly.</p>
           
           <div style="text-align: center;">
-            <a href="https://nammapondyproperties.com" class="btn">Visit Website</a>
+            <a href="https://theplotone.com" class="btn">Visit Website</a>
           </div>
         </div>
         <div class="footer">
-          &copy; ${new Date().getFullYear()} Namma Pondy Properties. All rights reserved.<br>
+          &copy; ${new Date().getFullYear()} The Plot One. All rights reserved.<br>
         </div>
       </div>
     </body>

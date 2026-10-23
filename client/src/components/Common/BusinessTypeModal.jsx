@@ -88,7 +88,7 @@ const BusinessTypeModal = ({ open, onCancel, onSuccess }) => {
           </button>
           <h2 className="text-3xl font-bold mb-2">Select Business Type</h2>
           <p className="text-blue-100 opacity-90">
-            Choose how you want to represent yourself on Namma Pondy Properties.
+            Choose how you want to represent yourself on The Plot One.
             This will customize your profile and property listings.
           </p>
         </div>

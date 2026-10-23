@@ -30,7 +30,7 @@ const supportTicketNotificationTemplate = (ticket, seller, firstMessage) => {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://nammapondyproperties.com/Logo/logo.webp" alt="Namma Pondy Properties" style="height: 50px; width: auto; margin-bottom: 10px;">
+          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One" style="height: 50px; width: auto; margin-bottom: 10px;">
           <h1>New Support Ticket</h1>
         </div>
         <div class="content">
@@ -66,7 +66,7 @@ const supportTicketNotificationTemplate = (ticket, seller, firstMessage) => {
           </div>
         </div>
         <div class="footer">
-          &copy; ${new Date().getFullYear()} Namma Pondy Properties. All rights reserved.<br>
+          &copy; ${new Date().getFullYear()} The Plot One. All rights reserved.<br>
           This is an automated notification, please do not reply.
         </div>
       </div>

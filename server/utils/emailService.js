@@ -39,7 +39,7 @@ exports.sendPropertyNotification = async (property, seller, type) => {
       : `Edit Pending: ${property.basicInfo?.title}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -64,7 +64,7 @@ exports.sendMarketingLeadNotification = async (request, seller, property, plan) 
     const subject = `New Marketing Lead: ${plan?.serviceName || "Marketing Request"}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -90,7 +90,7 @@ exports.sendEnquiryNotification = async (enquiry, seller, property, updater = nu
       : `New Property Enquiry: ${enquiry.enquirer_name || "Buyer"}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -111,7 +111,7 @@ exports.sendEnquiryNotification = async (enquiry, seller, property, updater = nu
 exports.sendBadgeVerificationNotification = async (user, status, customMessage = "") => {
   try {
     const htmlContent = badgeVerificationTemplate(user, status, customMessage);
-    const subject = `Badge Verification Update - Namma Pondy Properties`;
+    const subject = `Badge Verification Update - The Plot One`;
 
     // Priority: user.email (if exists) > user.builderProfile.email
     const recipientEmail = user.email || user.builderProfile?.email;
@@ -122,7 +122,7 @@ exports.sendBadgeVerificationNotification = async (user, status, customMessage =
     }
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: recipientEmail,
       subject: subject,
       html: htmlContent,
@@ -145,7 +145,7 @@ exports.sendBadgeRequestNotificationToAdmin = async (user) => {
     const subject = `New Badge Verification Request: ${user.name || "Seller"}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -169,7 +169,7 @@ exports.sendContactNotificationToAdmin = async (contact) => {
     const subject = `New Contact Message from ${contact.name}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -193,7 +193,7 @@ exports.sendCallRequestNotificationToAdmin = async (request) => {
     const subject = `New Callback Request: ${request.fullName}`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL,
       subject: subject,
       html: htmlContent,
@@ -230,7 +230,7 @@ exports.sendSubscriptionExpiryWarning = async (user, subscription, daysLeft) => 
       : `Urgent: Your subscription is expiring in ${daysLeft} days`;
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: recipientEmail,
       subject: subject,
       html: htmlContent,
@@ -262,10 +262,10 @@ exports.sendSubscriptionExpiredNotification = async (user, subscription) => {
     }
 
     const htmlContent = subscriptionExpiredTemplate(user, subscription);
-    const subject = "Your subscription has expired - Namma Pondy Properties";
+    const subject = "Your subscription has expired - The Plot One";
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: recipientEmail,
       subject: subject,
       html: htmlContent,
@@ -288,7 +288,7 @@ exports.sendRequirementNotificationToAdmin = async (requirement) => {
     const htmlContent = requirementNotificationTemplate(requirement);
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL, // Admin's email
       subject: `New Property Requirement: ${requirement.fullName}`,
       html: htmlContent,
@@ -311,7 +311,7 @@ exports.sendSupportTicketNotificationToAdmin = async (ticket, seller, firstMessa
     const htmlContent = supportTicketNotificationTemplate(ticket, seller, firstMessage);
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: process.env.USER_EMAIL, // Admin's email
       subject: `New Support Ticket: ${ticket.subject}`,
       html: htmlContent,
@@ -339,11 +339,11 @@ exports.sendThankYouEmail = async (data, type = "contact") => {
 
     const htmlContent = thankYouTemplate(data, type);
     const subject = type === "callback" 
-      ? "We've received your callback request - Namma Pondy Properties"
-      : "Thank you for contacting Namma Pondy Properties";
+      ? "We've received your callback request - The Plot One"
+      : "Thank you for contacting The Plot One";
 
     const mailOptions = {
-      from: `"Namma Pondy Properties" <${process.env.USER_EMAIL}>`,
+      from: `"The Plot One" <${process.env.USER_EMAIL}>`,
       to: recipientEmail,
       subject: subject,
       html: htmlContent,

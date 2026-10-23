@@ -18,7 +18,7 @@ const WhyPostProperty = () => {
                 <div className="flex-1 w-full text-center lg:text-left">
                     {/* Standardized Label */}
                     <p className="text-[13px] font-bold text-[#8A94A5] uppercase tracking-wider mb-3">
-                        WHY NAMMA PONDY
+                        WHY THE PLOT ONE
                     </p>
                     
                     {/* Standardized H2 */}
@@ -28,7 +28,7 @@ const WhyPostProperty = () => {
                     
                     {/* Standardized Body Text */}
                     <p className="text-[16px] text-[#5C687B] leading-[1.65] font-normal mb-6">
-                        List your property on Namma Pondy Properties and reach thousands of active buyers and tenants searching for homes, plots, and commercial spaces in Pondicherry.
+                        List your property on The Plot One and reach thousands of active buyers and tenants searching for homes, plots, and commercial spaces in Pondicherry.
                     </p>
                     <p className="text-[16px] text-[#5C687B] leading-[1.65] font-normal mb-10">
                         Our platform helps property owners, agents, and builders showcase listings with maximum visibility and receive verified enquiries.

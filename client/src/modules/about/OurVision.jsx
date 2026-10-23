@@ -25,7 +25,7 @@ export default function OurVision() {
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-md border border-gray-200 bg-white p-2">
                 <img
                   src="/about/vission.webp"
-                  alt="Namma Pondy Vision"
+                  alt="The Plot One Vision"
                   className="w-full h-auto rounded-xl"
                 />
               </div>

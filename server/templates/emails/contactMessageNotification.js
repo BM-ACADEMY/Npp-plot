@@ -28,7 +28,7 @@ const contactMessageNotificationTemplate = (contact) => {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://nammapondyproperties.com/Logo/logo.webp" alt="Namma Pondy Properties" style="height: 50px; width: auto; margin-bottom: 10px;">
+          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One" style="height: 50px; width: auto; margin-bottom: 10px;">
           <h1>New Contact Message</h1>
         </div>
         <div class="content">
@@ -59,11 +59,11 @@ const contactMessageNotificationTemplate = (contact) => {
           </div>
 
           <div style="text-align: center;">
-            <a href="${process.env.ADMIN_URL || 'https://admin.nammapondyproperties.com'}/forms/contact-messages" class="btn">View in Admin Panel</a>
+            <a href="${process.env.ADMIN_URL || 'https://admin.theplotone.com'}/forms/contact-messages" class="btn">View in Admin Panel</a>
           </div>
         </div>
         <div class="footer">
-          &copy; ${new Date().getFullYear()} Namma Pondy Properties. All rights reserved.<br>
+          &copy; ${new Date().getFullYear()} The Plot One. All rights reserved.<br>
           This is an automated notification, please do not reply.
         </div>
       </div>

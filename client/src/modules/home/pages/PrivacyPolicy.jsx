@@ -9,10 +9,10 @@ const PrivacyPolicy = () => {
   return (
     <div className="mt-26 max-w-4xl mx-auto p-8 bg-white">
       <Helmet>
-        <title>Legal Policies | Namma Pondy Properties</title>
+        <title>Legal Policies | The Plot One</title>
         <meta
           name="description"
-          content="Privacy Policy, Refund Policy, and Lead Agreement for Namma Pondy Properties."
+          content="Privacy Policy, Refund Policy, and Lead Agreement for The Plot One."
         />
       </Helmet>
       
@@ -29,10 +29,10 @@ const PrivacyPolicy = () => {
         <section id="privacy-policy">
           <Title level={3} className="text-blue-900 mb-6">1. PRIVACY POLICY</Title>
           <Paragraph className="text-lg font-medium text-gray-800 italic mb-6">
-            Privacy Policy – Namma Pondy Properties
+            Privacy Policy – The Plot One
           </Paragraph>
           <Paragraph className="text-gray-600 mb-8">
-            Namma Pondy Properties (“we”, “our”, “platform”) operates as a real estate listing and lead generation platform based in Pondicherry.
+            The Plot One (“we”, “our”, “platform”) operates as a real estate listing and lead generation platform based in Pondicherry.
           </Paragraph>
 
           <Divider />
@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
             <Paragraph className="mb-0 text-gray-700">
               For any queries:<br />
               Phone: <a href="tel:+919403892971" className="text-blue-600 hover:underline"><strong>+91 94038 92971</strong></a><br />
-              Email: <a href="mailto:help@nammapondyproperties.com" className="text-blue-600 hover:underline"><strong>help@nammapondyproperties.com</strong></a>
+              Email: <a href="mailto:help@theplotone.com" className="text-blue-600 hover:underline"><strong>help@theplotone.com</strong></a>
             </Paragraph>
           </div>
           <Paragraph className="mt-8 font-semibold text-center text-gray-900 border-t border-gray-100 pt-6">
@@ -116,12 +116,12 @@ const PrivacyPolicy = () => {
         <section id="refund-policy">
           <Title level={3} className="text-blue-900 mb-6">2. REFUND POLICY</Title>
           <Paragraph className="text-lg font-medium text-gray-800 italic mb-8">
-            Refund Policy – Namma Pondy Properties
+            Refund Policy – The Plot One
           </Paragraph>
 
           <div className="space-y-8">
             {[
-              { title: "1. General Policy", text: "All payments made to Namma Pondy Properties are non-refundable, unless explicitly stated." },
+              { title: "1. General Policy", text: "All payments made to The Plot One are non-refundable, unless explicitly stated." },
               { title: "2. Listing Plans", text: "Payments for listing plans (Free, Standard, Premium, Pro) are non-refundable. Once a listing is activated, no refund will be issued." },
               { title: "3. Lead Generation Services", text: "Lead generation services are non-refundable once the campaign is started. No guarantee on the number of leads or conversions." },
               { 
@@ -145,7 +145,7 @@ const PrivacyPolicy = () => {
               <Paragraph className="mb-0 text-gray-700">
                 For refund-related queries:<br />
                 Phone: <a href="tel:+919403892971" className="text-blue-600 hover:underline"><strong>+91 94038 92971</strong></a><br />
-                Email: <a href="mailto:help@nammapondyproperties.com" className="text-blue-600 hover:underline"><strong>help@nammapondyproperties.com</strong></a>
+                Email: <a href="mailto:help@theplotone.com" className="text-blue-600 hover:underline"><strong>help@theplotone.com</strong></a>
               </Paragraph>
             </div>
           </div>
@@ -163,7 +163,7 @@ const PrivacyPolicy = () => {
           </Title>
           <div className="bg-blue-50/50 p-8 rounded-3xl border-2 border-dashed border-blue-100">
             <Paragraph className="text-lg font-medium text-blue-900 leading-relaxed mb-0">
-              “By submitting your details, you agree to receive calls, SMS, and WhatsApp messages from Namma Pondy Properties regarding property listings, offers, and services. Your information may be shared with relevant agents or builders to help you find suitable properties.”
+              “By submitting your details, you agree to receive calls, SMS, and WhatsApp messages from The Plot One regarding property listings, offers, and services. Your information may be shared with relevant agents or builders to help you find suitable properties.”
             </Paragraph>
           </div>
         </section>
@@ -174,12 +174,12 @@ const PrivacyPolicy = () => {
         <section id="lead-agreement">
           <Title level={3} className="text-blue-900 mb-6">4. LEAD AGREEMENT FOR AGENTS / BUILDERS</Title>
           <Paragraph className="text-lg font-medium text-gray-800 italic mb-8">
-            Lead Usage Agreement – Namma Pondy Properties
+            Lead Usage Agreement – The Plot One
           </Paragraph>
 
           <div className="space-y-8">
             {[
-              { title: "1. Lead Ownership", text: "All leads are generated by Namma Pondy Properties and are shared for business purposes only." },
+              { title: "1. Lead Ownership", text: "All leads are generated by The Plot One and are shared for business purposes only." },
               { 
                 title: "2. Usage Terms", 
                 content: ["To use leads only for property-related communication", "Not to misuse, spam, or harass customers", "Not to resell or redistribute leads"]
@@ -209,7 +209,7 @@ const PrivacyPolicy = () => {
               </Paragraph>
               <Paragraph className="mb-0 text-gray-700">
                 Phone: <a href="tel:+919403892971" className="text-blue-600 hover:underline"><strong>+91 94038 92971</strong></a><br />
-                Email: <a href="mailto:help@nammapondyproperties.com" className="text-blue-600 hover:underline"><strong>help@nammapondyproperties.com</strong></a>
+                Email: <a href="mailto:help@theplotone.com" className="text-blue-600 hover:underline"><strong>help@theplotone.com</strong></a>
               </Paragraph>
             </div>
           </div>

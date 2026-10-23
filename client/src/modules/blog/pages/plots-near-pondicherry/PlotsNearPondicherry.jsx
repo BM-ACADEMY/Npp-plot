@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare, Building, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/plots-near-pondicherry";
+const CANONICAL_URL = "https://theplotone.com/blog/plots-near-pondicherry";
 
 const PlotsNearPondicherry = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const PlotsNearPondicherry = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>Plots Near Pondicherry — Panruti, Chidambaram & Karaikal (2026) | Namma Pondy Properties</title>
+        <title>Plots Near Pondicherry — Panruti, Chidambaram & Karaikal (2026) | The Plot One</title>
         <meta
           name="description"
           content="Buyer's guide to plots near Pondicherry — comparing Panruti, Chidambaram, and Karaikal on connectivity, lifestyle, documents to verify, and buyer tips."
@@ -626,7 +626,7 @@ const PlotsNearPondicherry = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 31 August 2026</span>
           </div>
 
@@ -980,7 +980,7 @@ const PlotsNearPondicherry = () => {
           <div className="final-cta">
             <h2>Ready to Explore Verified Plots Near Pondicherry?</h2>
             <p>
-              Let Namma Pondy Properties help you explore verified residential plots across
+              Let The Plot One help you explore verified residential plots across
               Pondicherry, Panruti, Cuddalore, Chidambaram, Karaikal, Villupuram, Tindivanam, and
               Chennai — with clarity and confidence.
             </p>
@@ -997,10 +997,10 @@ const PlotsNearPondicherry = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping buyers explore verified residential plots across Pondicherry, Panruti,

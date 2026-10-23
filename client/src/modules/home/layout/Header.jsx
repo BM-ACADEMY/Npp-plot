@@ -279,7 +279,7 @@ const Header = () => {
               >
                 <img
                   src="/Logo/logo.webp"
-                  alt="NammaPondy Logo - Pondicherry's leading real estate platform"
+                  alt="The Plot One Logo - Pondicherry's leading real estate platform"
                   className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
@@ -671,7 +671,7 @@ const Header = () => {
                           {/* Welcome Header */}
                           <div className="px-5 py-3 border-b border-gray-100 bg-slate-50">
                             <p className="text-sm font-bold text-gray-900 tracking-wide">
-                              Welcome to NammaPondy
+                              Welcome to The Plot One
                             </p>
                             <p className="text-xs text-gray-500 mt-1 leading-relaxed">
                               Login to manage your properties, leads and saved

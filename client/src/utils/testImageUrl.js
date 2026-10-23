@@ -8,10 +8,10 @@ const clientRoot = fileURLToPath(new URL("../../", import.meta.url));
 const testScenarios = [
   {
     name: "Subdomain API URL preserves subdomain host without truncation",
-    apiUrl: "https://api.nammapondyproperties.com/api",
+    apiUrl: "https://api.theplotone.com/api",
     path: "/uploads/properties/plot1.webp",
-    expectedBaseUrl: "https://api.nammapondyproperties.com",
-    expectedImageUrl: "https://api.nammapondyproperties.com/uploads/properties/plot1.webp",
+    expectedBaseUrl: "https://api.theplotone.com",
+    expectedImageUrl: "https://api.theplotone.com/uploads/properties/plot1.webp",
   },
   {
     name: "Port 6061 custom backend URL",

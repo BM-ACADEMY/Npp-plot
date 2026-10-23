@@ -479,7 +479,7 @@ const DtcpApprovedPlots = () => {
           </h1>
 
           <div className="byline">
-            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4 text-[#166aa8]" /> 29 July 2026</span>
           </div>
 
@@ -594,7 +594,7 @@ const DtcpApprovedPlots = () => {
           </div>
 
           <div className="why-choose">
-            <h2>Why Choose Namma Pondy Properties</h2>
+            <h2>Why Choose The Plot One</h2>
             <ul className="why-list">
               <li>
                 <b>Proven Results</b> — 500+ families guided to verified, legally clean plots across
@@ -622,7 +622,7 @@ const DtcpApprovedPlots = () => {
             <div className="success-card">
               <div className="stars">★★★★★</div>
               <p className="quote">
-                "We were first-time buyers and had no idea what to check. Namma Pondy Properties
+                "We were first-time buyers and had no idea what to check. The Plot One
                 walked us through every document and got us a DTCP-approved plot near Lawspet
                 within our budget."
               </p>
@@ -651,10 +651,10 @@ const DtcpApprovedPlots = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Pondicherry's trusted real estate partner, helping families find verified, DTCP-approved

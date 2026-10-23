@@ -13,10 +13,10 @@ const DeactivateAccount = () => {
   return (
     <div className="mt-26 max-w-4xl mx-auto p-8 bg-white">
       <Helmet>
-        <title>Deactivate Account | Namma Pondy Properties</title>
+        <title>Deactivate Account | The Plot One</title>
         <meta
           name="description"
-          content="Learn how to deactivate your account on Namma Pondy Properties and understand our data retention policies."
+          content="Learn how to deactivate your account on The Plot One and understand our data retention policies."
         />
       </Helmet>
       
@@ -76,7 +76,7 @@ const DeactivateAccount = () => {
         <section>
           <Title level={3} className="text-blue-900 mb-6">Data Retention & Removal Policy</Title>
           <Paragraph className="text-gray-600">
-            Namma Pondy Properties complies with data protection regulations. When you deactivate your account:
+            The Plot One complies with data protection regulations. When you deactivate your account:
           </Paragraph>
           <ul className="list-disc pl-6 space-y-3 text-gray-600">
             <li>We retain basic transaction records and lead history for legal and compliance purposes for a period of up to 5 years.</li>
@@ -95,7 +95,7 @@ const DeactivateAccount = () => {
             <Button 
               type="primary" 
               icon={<Mail size={16} />} 
-              href="mailto:help@nammapondyproperties.com"
+              href="mailto:help@theplotone.com"
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2 h-12 px-6 rounded-xl"
             >
               Email Support

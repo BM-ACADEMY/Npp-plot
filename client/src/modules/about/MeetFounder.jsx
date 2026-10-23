@@ -73,7 +73,7 @@ export default function MeetFounder() {
               </h2>
               
               <p className="text-gray-500 text-sm mt-2 uppercase tracking-widest font-semibold">
-                The Heart Behind Namma Pondy Properties
+                The Heart Behind The Plot One
               </p>
             </div>
 

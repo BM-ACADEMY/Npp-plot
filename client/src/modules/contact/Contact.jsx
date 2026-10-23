@@ -64,10 +64,10 @@ export default function ContactHeroLayout() {
       }}
     >
       <Helmet>
-        <title>Contact Namma Pondy Properties | Book Site Visit</title>
+        <title>Contact The Plot One | Book Site Visit</title>
         <meta
           name="description"
-          content="Get in touch with Namma Pondy Properties for property inquiries, site visits, and investment guidance in Puducherry."
+          content="Get in touch with The Plot One for property inquiries, site visits, and investment guidance in Puducherry."
         />
       </Helmet>
       {/* --- HERO SECTION WITH FORM --- */}

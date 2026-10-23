@@ -206,7 +206,7 @@ const BusinessUserList = () => {
 
     const message = property
       ? `Hi, I am interested in your property: ${property.basicInfo?.title || "Untitled"} located at ${typeof property.location === "string" ? property.location : property.location?.city || "Unknown"}. Please provide more details.`
-      : `Hi ${targetUser.name}, I'm interested in your property listings on Namma Pondy.`;
+      : `Hi ${targetUser.name}, I'm interested in your property listings on The Plot One.`;
 
     const whatsappUrl = `https://wa.me/${sellerPhone}?text=${encodeURIComponent(message)}`;
 
@@ -252,7 +252,7 @@ const BusinessUserList = () => {
 
     const message = property
       ? `Hi, I am interested in your property: ${property.basicInfo?.title || "Untitled"} located at ${typeof property.location === "string" ? property.location : property.location?.city || "Unknown"}. Please provide more details.`
-      : `Hi ${targetUser.name}, I'm interested in your property listings on Namma Pondy.`;
+      : `Hi ${targetUser.name}, I'm interested in your property listings on The Plot One.`;
 
     const whatsappUrl = `https://wa.me/${sellerPhone}?text=${encodeURIComponent(message)}`;
 
@@ -280,8 +280,8 @@ const BusinessUserList = () => {
   const handleShareProfile = async (e) => {
     e.stopPropagation();
     const shareData = {
-      title: `${selectedSeller?.name} | Namma Pondy`,
-      text: `View ${selectedSeller?.name}'s professional profile and listings on Namma Pondy.`,
+      title: `${selectedSeller?.name} | The Plot One`,
+      text: `View ${selectedSeller?.name}'s professional profile and listings on The Plot One.`,
       url: window.location.href,
     };
 
@@ -739,7 +739,7 @@ const BusinessUserList = () => {
                             {/* Bio Content */}
                             <div className="flex-1 text-center md:text-left pt-2">
                               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 leading-tight">
-                                {selectedSeller?.role_id?.role_name === 'admin' && selectedSeller?.name === 'Admin' ? 'Namma Pondy Admin' : selectedSeller?.name}
+                                {selectedSeller?.role_id?.role_name === 'admin' && selectedSeller?.name === 'Admin' ? 'The Plot One Admin' : selectedSeller?.name}
                               </h2>
 
                               {/* Experience & Type Row */}

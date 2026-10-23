@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, ClipboardList, MessageSquare } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/property-management-away-from-pondicherry";
+const CANONICAL_URL = "https://theplotone.com/blog/property-management-away-from-pondicherry";
 const HERO_IMAGE = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80";
 const WA = "https://wa.me/919403892971?text=";
 
@@ -19,7 +19,7 @@ const PropertyManagementAwayFromPondicherry = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>How to Protect and Maintain Your Property When You Live Away From Pondicherry | Namma Pondy Properties</title>
+        <title>How to Protect and Maintain Your Property When You Live Away From Pondicherry | The Plot One</title>
         <meta
           name="description"
           content="Practical guide for owners living away from Pondicherry — inspections, document upkeep, tax tracking, local contacts, boundary protection, and NRI tips."
@@ -622,7 +622,7 @@ const PropertyManagementAwayFromPondicherry = () => {
           </h1>
 
           <div className="byline">
-            <span><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span><Calendar className="w-4 h-4 text-[#166aa8]" /> 19 September 2026</span>
           </div>
 
@@ -1067,7 +1067,7 @@ const PropertyManagementAwayFromPondicherry = () => {
           <div className="final-cta">
             <h2>Looking for Property Management Support in Pondicherry?</h2>
             <p>
-              Let Namma Pondy Properties help you explore property-related solutions across
+              Let The Plot One help you explore property-related solutions across
               Pondicherry, Cuddalore, Villupuram, Tindivanam, and Chennai. Whether you're buying a
               plot, managing an existing property, or exploring land investment, proper local guidance
               makes it easier.
@@ -1085,10 +1085,10 @@ const PropertyManagementAwayFromPondicherry = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Helping property owners explore property-related solutions across Pondicherry,

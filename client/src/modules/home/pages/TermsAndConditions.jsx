@@ -9,10 +9,10 @@ const TermsAndConditions = () => {
   return (
     <div className="mt-28 max-w-4xl mx-auto p-4">
       <Helmet>
-        <title>Terms & Conditions | Namma Pondy Properties</title>
+        <title>Terms & Conditions | The Plot One</title>
         <meta
           name="description"
-          content="Read the terms and conditions governing the use of Namma Pondy Properties website and services."
+          content="Read the terms and conditions governing the use of The Plot One website and services."
         />
       </Helmet>
       <Breadcrumb className="mb-4">
@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
 
       <div className="mt-8">
         <Paragraph>
-          Welcome to <strong>Namma Pondy Properties</strong> (“Company”, “We”,
+          Welcome to <strong>The Plot One</strong> (“Company”, “We”,
           “Our”, or “Us”). These Terms & Conditions govern your use of our
           website and real estate advisory services. By accessing or using our
           website, submitting inquiries, or engaging with our services, you
@@ -40,7 +40,7 @@ const TermsAndConditions = () => {
         <section className="mb-8">
           <Title level={4}>1. About Our Services</Title>
           <Paragraph>
-            Namma Pondy Properties operates as a real estate advisory and
+            The Plot One operates as a real estate advisory and
             property listing service in Kottakuppam, Puducherry, Tamil Nadu,
             India. Our services include:
           </Paragraph>
@@ -91,7 +91,7 @@ const TermsAndConditions = () => {
           </Paragraph>
           <Paragraph>
             We rely on information provided by property owners, developers, and
-            partners. Namma Pondy Properties is not responsible for inaccuracies
+            partners. The Plot One is not responsible for inaccuracies
             beyond our control. Buyers are advised to independently verify all
             legal documents before purchase.
           </Paragraph>
@@ -133,7 +133,7 @@ const TermsAndConditions = () => {
             visits, and updates.
           </Paragraph>
           <Paragraph>
-            You may opt out by contacting: <strong>info@nammapondy.com</strong>
+            You may opt out by contacting: <strong>info@theplotone.com</strong>
           </Paragraph>
         </section>
 
@@ -142,7 +142,7 @@ const TermsAndConditions = () => {
           <Paragraph>
             All content on this website, including text, images, logos, property
             descriptions, and branding elements are the intellectual property of
-            Namma Pondy Properties and may not be copied, modified, or
+            The Plot One and may not be copied, modified, or
             distributed without written permission.
           </Paragraph>
         </section>
@@ -150,7 +150,7 @@ const TermsAndConditions = () => {
         <section className="mb-8">
           <Title level={4}>8. Limitation of Liability</Title>
           <Paragraph>
-            Namma Pondy Properties shall not be liable for property disputes
+            The Plot One shall not be liable for property disputes
             between buyer and seller, financial losses due to market changes,
             legal issues related to property ownership, delays in project
             completion, or loan rejections.
@@ -190,11 +190,11 @@ const TermsAndConditions = () => {
         <section>
           <Title level={4}>Contact Information</Title>
           <Paragraph>
-            <strong>Namma Pondy Properties</strong>
+            <strong>The Plot One</strong>
             <br />
             Kottakuppam, Puducherry, Tamil Nadu, India
             <br />
-            Email: info@nammapondy.com
+            Email: info@theplotone.com
           </Paragraph>
         </section>
       </div>

@@ -60,7 +60,7 @@ const WhatWeDo = () => {
             </h2>
 
             <p className="text-gray-500 text-lg leading-relaxed mb-8">
-              At Namma Pondy Properties, we specialize in delivering safe, secure, and legally verified real estate opportunities for our clients.
+              At The Plot One, we specialize in delivering safe, secure, and legally verified real estate opportunities for our clients.
             </p>
 
             <button className="flex items-center gap-3 bg-[#D4AF37] text-[white] font-bold py-4 px-8 rounded-lg hover:bg-[#050B14] hover:text-white transition-all duration-300 shadow-lg group">

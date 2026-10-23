@@ -34,7 +34,7 @@ export default function PropertyCTA() {
 
               <div className="flex items-center gap-4">
                 <p className="text-[#D4AF37] font-semibold italic text-sm md:text-base">
-                  Namma Pondy Properties – Your Trusted Real Estate Partner in Pondicherry.
+                  The Plot One – Your Trusted Real Estate Partner in Pondicherry.
                 </p>
               </div>
             </Col>

@@ -39,7 +39,7 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-        <title>Namma Pondy Properties | Buy & Sell in Pondicherry</title>
+        <title>The Plot One | Buy & Sell in Pondicherry</title>
         <meta
           name="description"
           content="Explore verified plots, villas, and commercial properties in Pondicherry. Trusted real estate experts in Kottakuppam & nearby areas."

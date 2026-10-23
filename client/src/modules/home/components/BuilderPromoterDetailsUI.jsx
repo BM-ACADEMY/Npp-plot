@@ -76,7 +76,7 @@ const BuilderPromoterDetailsUI = ({
   const handleShare = async () => {
     const shareData = {
       title: property.basicInfo?.title || "Property Details",
-      text: `Check out this property: ${property.basicInfo?.title || "Property"} on Namma Pondy Properties`,
+      text: `Check out this property: ${property.basicInfo?.title || "Property"} on The Plot One`,
       url: window.location.href,
     };
 

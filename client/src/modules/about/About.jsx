@@ -12,10 +12,10 @@ export default function About() {
     <>
       {/* SEO META DETAILS */}
       <Helmet>
-        <title>About Namma Pondy Properties | Trusted Experts</title>
+        <title>About The Plot One | Trusted Experts</title>
         <meta
           name="description"
-          content="Learn about Namma Pondy Properties, your trusted real estate partner in Kottakuppam, Puducherry for buying and selling property."
+          content="Learn about The Plot One, your trusted real estate partner in Kottakuppam, Puducherry for buying and selling property."
         />
       </Helmet>
 

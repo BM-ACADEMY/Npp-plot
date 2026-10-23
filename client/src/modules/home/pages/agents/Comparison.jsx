@@ -95,7 +95,7 @@ const Comparison = () => {
           <div className="bg-[#d9f2d0] rounded-2xl p-8 lg:p-12 relative shadow-lg shadow-green-100/50 flex flex-col justify-between">
             <div>
                 <h3 className="text-3xl lg:text-3xl font-bold text-[#0e182b] mb-8 leading-[1.2] tracking-tight">
-                Get More Buyers with <br className="hidden sm:block" /> Namma Pondy Properties:
+                Get More Buyers with <br className="hidden sm:block" /> The Plot One:
                 </h3>
                 <ul className="space-y-5">
                 {solutions.map((solution, index) => (

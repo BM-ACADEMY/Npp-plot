@@ -20,7 +20,7 @@ const FinalCTA = () => {
         
         {/* Description */}
         <p className="text-[18px] md:text-[20px] text-blue-100 leading-relaxed mb-10 max-w-2xl mx-auto font-normal">
-          Join thousands of property owners who trust Namma Pondy Properties to find buyers and tenants faster.
+          Join thousands of property owners who trust The Plot One to find buyers and tenants faster.
         </p>
         
         {/* High-Contrast Action Button */}

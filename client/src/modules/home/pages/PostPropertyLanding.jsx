@@ -152,7 +152,7 @@ const PostPropertyLanding = () => {
               <h1 className="text-4xl lg:text-5xl font-bold text-[#0e182b] leading-tight">
                 Sell/Buy or rent faster at the right price!
                 <span className="text-[#c19b48]">
-                  online faster with NammaPondy
+                  online faster with The Plot One
                 </span>
               </h1>
 

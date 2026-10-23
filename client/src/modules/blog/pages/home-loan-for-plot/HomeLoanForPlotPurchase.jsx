@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Home, ChevronRight, User, Calendar, MessageSquare, Landmark, FileText } from "lucide-react";
 
-const CANONICAL_URL = "https://nammapondyproperties.com/blog/home-loan-for-plot";
+const CANONICAL_URL = "https://theplotone.com/blog/home-loan-for-plot";
 
 const HomeLoanForPlotPurchase = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const HomeLoanForPlotPurchase = () => {
   return (
     <div className="blog-detail-wrapper">
       <Helmet>
-        <title>Home Loan for Plot Purchase – Complete Process, Eligibility & Documents Guide (2026) | Namma Pondy Properties</title>
+        <title>Home Loan for Plot Purchase – Complete Process, Eligibility & Documents Guide (2026) | The Plot One</title>
         <meta
           name="description"
           content="Can you get a home loan for a plot? Complete 2026 guide to eligibility, step-by-step process, required documents, and what to verify before applying — with Pondicherry examples."
@@ -33,7 +33,7 @@ const HomeLoanForPlotPurchase = () => {
           property="og:description"
           content="Eligibility, step-by-step process, required documents, and what to verify before applying for a plot loan — with Pondicherry examples."
         />
-        <meta property="og:image" content="https://nammapondyproperties.com/blog/land-registration-docs.webp" />
+        <meta property="og:image" content="https://theplotone.com/blog/land-registration-docs.webp" />
       </Helmet>
 
       <style>{`
@@ -546,7 +546,7 @@ const HomeLoanForPlotPurchase = () => {
           </h1>
 
           <div className="byline">
-            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> Namma Pondy Properties Team</span>
+            <span className="flex items-center gap-1.5"><User className="w-4 h-4 text-[#166aa8]" /> The Plot One Team</span>
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4 text-[#166aa8]" /> 24 July 2026</span>
           </div>
 
@@ -723,7 +723,7 @@ const HomeLoanForPlotPurchase = () => {
           </div>
 
           <div className="why-choose">
-            <h2>Why Choose Namma Pondy Properties</h2>
+            <h2>Why Choose The Plot One</h2>
             <ul className="why-list">
               <li>
                 <b>Loan-Ready Plots</b> — every listed plot has documentation prepared in the format most banks
@@ -749,7 +749,7 @@ const HomeLoanForPlotPurchase = () => {
             <div className="success-card">
               <div className="stars">★★★★★</div>
               <p className="quote">
-                "We didn't know plot loans even existed. Namma Pondy Properties helped us prepare the documents our
+                "We didn't know plot loans even existed. The Plot One helped us prepare the documents our
                 bank asked for, and our loan was sanctioned without a single delay."
               </p>
               <div className="client">
@@ -777,10 +777,10 @@ const HomeLoanForPlotPurchase = () => {
 
         <aside className="blog-aside">
           <div className="side-card">
-            <div className="side-label">About Namma Pondy Properties</div>
+            <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="Namma Pondy Properties" className="w-14 h-14 object-contain shrink-0" />
-              <div className="name">Namma Pondy Properties</div>
+              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <div className="name">The Plot One</div>
             </div>
             <p className="desc">
               Pondicherry's trusted real estate partner — our verified plots come with documentation ready for bank

@@ -62,7 +62,7 @@ const propertyNotificationTemplate = (property, seller, type) => {
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://nammapondyproperties.com/Logo/logo.webp" alt="Namma Pondy Properties" style="height: 60px; width: auto; margin-bottom: 10px;">
+          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One" style="height: 60px; width: auto; margin-bottom: 10px;">
           <p style="margin: 0; font-size: 14px; opacity: 0.9;">${title}</p>
         </div>
         <div class="content">
@@ -145,7 +145,7 @@ const propertyNotificationTemplate = (property, seller, type) => {
           </div>
         </div>
         <div class="footer">
-          &copy; ${new Date().getFullYear()} Namma Pondy Properties. All rights reserved.<br>
+          &copy; ${new Date().getFullYear()} The Plot One. All rights reserved.<br>
           This is an automated notification, please do not reply.
         </div>
       </div>
