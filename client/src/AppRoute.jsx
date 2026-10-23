@@ -36,6 +36,8 @@ const DtcpPlotsTindivanam = lazy(() => import("./modules/blog/pages/dtcp-plots-t
 const PlotsForSaleCuddalore = lazy(() => import("./modules/blog/pages/plots-for-sale-cuddalore/PlotsForSaleCuddalore"));
 const PlotsNearPondicherry = lazy(() => import("./modules/blog/pages/plots-near-pondicherry/PlotsNearPondicherry"));
 const PropertyManagementAwayFromPondicherry = lazy(() => import("./modules/blog/pages/property-management-away-from-pondicherry/PropertyManagementAwayFromPondicherry"));
+const PropertyManagementCost = lazy(() => import("./modules/blog/pages/property-management/PropertyManagementCost"));
+const ManagePropertyAbroad = lazy(() => import("./modules/blog/pages/manage-property-abroad/ManagePropertyAbroad"));
 
 const PageLoader = () => <Loader />;
 
@@ -217,6 +219,30 @@ const AppRoutes = () => {
           element={
             <Suspense fallback={<PageLoader />}>
               <PropertyManagementAwayFromPondicherry />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog/property-management"
+          element={
+            <Suspense fallback={<PageLoader />}>
+              <PropertyManagementCost />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog/manage-property-abroad"
+          element={
+            <Suspense fallback={<PageLoader />}>
+              <ManagePropertyAbroad />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/manage-property-abroad"
+          element={
+            <Suspense fallback={<PageLoader />}>
+              <ManagePropertyAbroad />
             </Suspense>
           }
         />

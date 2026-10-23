@@ -3,7 +3,7 @@
  * Strips the trailing /api from VITE_API_URL.
  */
 export const getBaseUrl = () => {
-  const apiUrl = import.meta.env.VITE_API_URL || "";
+  const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
   // Only replace the trailing /api to avoid matching //api in https://api.domain.com
   return apiUrl.replace(/\/api$/, "");
 };
