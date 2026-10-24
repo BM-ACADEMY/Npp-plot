@@ -31,9 +31,9 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         {/* Desktop Image */}
         <img
-          src="/banner/banner1.webp"
+          src="/banner/plotbanner.webp"
           alt="Hero Background Desktop"
-          className="hidden md:block w-full h-full object-cover object-center"
+          className="hidden md:block w-full h-full object-cover object-top"
           fetchpriority="high"
           loading="eager"
           width="1920"
