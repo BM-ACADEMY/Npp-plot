@@ -278,7 +278,7 @@ const Header = () => {
                 }}
               >
                 <img
-                  src="/Logo/logobg.webp"
+                  src={isHomePage && !isScrolled ? "/Logo/logowhite.webp" : "/Logo/logobg.webp"}
                   alt="The Plot One Logo - Pondicherry's leading real estate platform"
                   className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
