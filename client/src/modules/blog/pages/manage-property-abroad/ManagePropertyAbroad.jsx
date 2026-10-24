@@ -1110,7 +1110,7 @@ const ManagePropertyAbroad = () => {
             <div className="side-label">About the Brand</div>
             <div className="brand-row">
               <img
-                src="/Logo/logo.webp"
+                src="/Logo/logobg.webp"
                 alt="The Plot One"
                 className="w-14 h-14 object-contain shrink-0"
               />

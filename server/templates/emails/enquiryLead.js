@@ -43,7 +43,7 @@ const enquiryLeadTemplate = (enquiry, seller, property, updater = null, isUpdate
     <body>
       <div class="container">
         <div class="header">
-          <img src="https://theplotone.com/Logo/logo.webp" alt="The Plot One">
+          <img src="https://theplotone.com/Logo/logobg.webp" alt="The Plot One">
           <p>${title}</p>
         </div>
         <div class="content">

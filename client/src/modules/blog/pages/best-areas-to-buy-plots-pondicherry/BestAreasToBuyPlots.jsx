@@ -896,7 +896,7 @@ const BestAreasToBuyPlots = () => {
           <div className="side-card">
             <div className="side-label">About The Plot One</div>
             <div className="brand-row">
-              <img src="/Logo/logo.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
+              <img src="/Logo/logobg.webp" alt="The Plot One" className="w-14 h-14 object-contain shrink-0" />
               <div className="name">The Plot One</div>
             </div>
             <p className="desc">

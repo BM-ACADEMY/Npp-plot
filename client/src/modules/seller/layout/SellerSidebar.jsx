@@ -617,7 +617,7 @@ const SellerSidebar = ({ collapsed, setCollapsed, isMobile }) => {
       {/* ── Logo ─────────────────────────────────── */}
       <Link to="/" style={S.logoBlock}>
         <img
-          src="/Logo/logo.webp"
+          src="/Logo/logobg.webp"
           alt="Logo"
           style={{
             width: collapsed ? 38 : 38,

@@ -284,7 +284,7 @@ const BlogList = () => {
                 {/* Author Info */}
                 <div className="flex items-center pt-4 border-t border-slate-100">
                   <img
-                    src="/Logo/logo.webp"
+                    src="/Logo/logobg.webp"
                     alt="The Plot One"
                     className="w-12 h-12 object-contain mr-3 shrink-0"
                   />

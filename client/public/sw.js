@@ -4,8 +4,8 @@ self.addEventListener("push", (event) => {
 
   const options = {
     body: data.body,
-    icon: data.icon || "/Logo/logo.webp",
-    badge: data.badge || "/Logo/logo.webp",
+    icon: data.icon || "/Logo/logobg.webp",
+    badge: data.badge || "/Logo/logobg.webp",
     data: data.data || {},
     requireInteraction: true,
   };
